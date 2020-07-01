@@ -10,7 +10,7 @@ namespace umlTest
                 User user = new User();
 
                 user.UserId = 123456;
-                user.Name = "Admistrator";
+                user.Name = "Tony";
                 user.CreateTime = DateTime.Now;
 
                 Console.WriteLine(user.ViewUserAccount());
